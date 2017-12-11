@@ -23,7 +23,7 @@ class HelloController {
 
     @GetMapping("/")
     fun hello() : String {
-        return "Hello, world!"
+        return "Hello, Heroku + Kotlin!"
     }
 
     @GetMapping("/{name}")
